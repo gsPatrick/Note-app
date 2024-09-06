@@ -1,0 +1,64 @@
+
+body {
+    background-color: #9A87F5;
+}
+
+
+
+.note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-top: 0.7rem;
+    border-top: 2px solid #9A87F5;
+}
+
+.note-form__button {
+    color: black;
+}
+
+.table{
+    display: flex;
+}
+
+
+.note-title-content{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+
+}
+
+.note-h-p {
+    font-size: 0.89rem;;
+    margin-right: 2rem;
+    color: white;
+}
+
+
+.note__title{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.note-area-button {
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+}
+
+.note__button{
+    font-size: 0.625rem;
+    color: black;
+}
+
+.note__button--delete  {
+        margin-right: 1rem;
+}
